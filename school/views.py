@@ -1,10 +1,10 @@
 from rest_framework import viewsets
 
 from school.models import Course, Student
-from serializer import CourseSerializer, StudentSerializer
+from school.serializer import CourseSerializer, StudentSerializer
 
 
-class StudentViewSet(viewsets.ModelViewSet):
+class CourseViewSet(viewsets.ModelViewSet):
     """List all courses"""
     queryset = Course.objects.all()
     serializer_class = CourseSerializer

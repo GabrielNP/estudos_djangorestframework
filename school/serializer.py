@@ -3,9 +3,9 @@ from rest_framework import serializers
 from school.models import Course, Student
 
 
-class CoruseSerializer(serializers.ModelSerializer):
+class CourseSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Coruse
+        model = Course
         fields = '__all__'
 
 class StudentSerializer(serializers.ModelSerializer):
