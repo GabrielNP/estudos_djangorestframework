@@ -2,13 +2,15 @@
 
 # Dependencies
 
-- Python
+- Python 3
 - Pip
 
 # Set up
- 1) Clone this repo.
+ 1) Clone this repo
  
- 2) Install required modules.
+ 2) Activate virtual environment
+ 
+ 3) Install required modules
 
 
 
