@@ -15,7 +15,7 @@ class Course(models.Model):
         return self.description
 
 class Student(models.Model):
-    cour = models.CharField(max_length=30)
+    name = models.CharField(max_length=30)
     regional_document = models.CharField(max_length=9)
     registry_identification = models.CharField(max_length=11)
     born_at = models.DateField()
