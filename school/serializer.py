@@ -24,6 +24,7 @@ class ListRegisteredStudentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Registration
         fields = ['student_name']
+        
 class ListRegistrationStudentSerializer(serializers.ModelSerializer):
     course = serializers.ReadOnlyField(source='course.description')
     period = serializers.SerializerMethodField()
